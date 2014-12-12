@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.nolist{
+	color:#999;
+	letter-spacing:10px;
+	text-align:center;
+}
+.back_btn{
+	font-size:15px;
+	max-width:200px;
+	margin:30px auto;
+}
+.friendListCover{
+	padding:10px;
+}
+.friendListArea{
+	border-radius:3px;
+	border:1px solid #CCC;
+	overflow:hidden;/*clearfix*/
+	position:relative;
+}
+.friendListArea:hover{
+	border:1px solid #d54c14;
+}
+.friendListPic{
+	display:block;
+	float:left;
+	padding:8px;
+	vertical-align:top;
+	width:146px;
+}
+.friendListPic img{
+	width:130px;
+	height:150px;
+}
+.friendListDetail{
+	display:block;
+	float:left;
+	padding-top:3px;
+	height:166px;
+	max-width:204px;
+}
+.friendListItem{
+	padding-left:10px;	
+}
+.fli-btn{
+	position: absolute;
+	bottom: 8px;
+	padding: 0;
+	right: 8px;
+	z-index: 5;
+	display:none;
+}
+.desStyle{
+	margin-top:20px;
+	color:#666;
+}
+.friendListAreaBottom{
+	margin:50px auto;
+	float:left;
+	text-align:center;
+	font-size:15px;
+}
+.friendListAreaBottom button{
+	width:300px;
+}
+.friendListAreaEnd{
+	border-top:1px solid #f2f2f2;
+	float:left;
+	margin-top:20px;
+	padding:20px 0px;
+	text-align:center;
+	color:#CCC;
+	letter-spacing:15px;
+}
+@media screen and (max-width:460px) {
+	.friendListCover{
+		padding:10px 0px;
+	}
+	.friendListDetail{
+		max-width:140px;
+	}
+	.friendListAreaBottom button{
+		width:100%;
+	}
+}

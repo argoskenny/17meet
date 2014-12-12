@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+}
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin-top:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 14px;
+	margin-bottom: 30px;
+	white-space: nowrap;
+	color: #EB6027;
+	text-shadow: 0 0px 1px rgba(0, 0, 0, 0.6);
+}
+.form-signin-heading img {
+	width: 300px;
+	height: 85px;
+}
+.form-signin{
+	color: #EB6027;
+	text-align: center;
+	text-shadow: 0 0px 1px rgba(0, 0, 0, 0.6);
+}
+.register{
+	margin-top:20px;
+	color: #EB6027;
+	text-align: center;
+	text-shadow: 0 0px 1px rgba(0, 0, 0, 0.6);
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.btn-block {
+	letter-spacing:3px;
+	font-size:15px;
+	font-weight:bold;
+}
+.alert
+{
+	max-width: 330px;
+	margin: 10px auto;
+	font-size:15px;
+	text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+	display:none;
+}
+@Media (max-width: 767px)
+{
+	.form-signin .form-signin-heading,
+	.form-signin .checkbox {
+		letter-spacing:10px;
+		white-space:none;
+	}
+	.form-signin {
+		margin: 50px auto;
+	}
+}

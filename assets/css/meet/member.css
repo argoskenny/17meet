@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+/* 頭像 */
+#avaterPic{
+	position:relative;
+	display:block;
+}
+.avaterPic{
+	display:block;
+	border:#CCC 1px solid;
+	width:220px;
+	height:250px;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:40px;
+	text-align:center;
+}
+.avaterPicBorder{
+	width:200px;
+	height:230px;
+	overflow:hidden;
+	}
+.avaterPic img {
+	height:230px;
+}
+.avaterPic_cover{
+	text-align:center;
+	color:#FFF;
+	float: right;
+	position:absolute;
+	width: 220px;
+	height:250px;
+	display: block;
+	left:50%;
+	margin-left:-110px;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.3);
+	display:none;
+	top:0;
+}
+.avaterPic_cover .btn-upload{
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:120px;
+	outline:0;
+}
+.avaterPic_cover .btn-upload:first-child{
+	margin-top:70px;
+}
+.avaterPic_loading{
+	text-align:center;
+	color:#FFF;
+	float: right;
+	position: relative;
+	display: block;
+	margin-top: -180px;
+	margin-right: 100px;
+	z-index: 5;
+	display:none;
+}
+.avaterPic_loading img{
+	width:50px;
+	height:50px;
+}
+.uploadcenter {
+	text-align:center;
+}
+.imgupload_subtext{
+	font-size:12px;
+	color:#b94a48;
+}
+.imgeditarea{
+	width:400px;
+	margin:0px auto;
+}
+/* 好友列表 */
+.friendList{
+	margin-top:10px;
+	border-top:#CCC 1px solid;
+	padding:2px;
+}
+
+/* 基本資料 */
+.memberDetail{
+	margin-top:10px;
+	border-top:#CCC 1px solid;
+	margin-bottom:70px;
+	min-height: 188px;
+}
+.memberDetailLeft{
+	padding-left: 0px;
+}
+.memberDetailRight{
+	padding-right:0px;
+}
+#memberDetailEdit{
+	margin-left:10px;
+}
+#memberGenderInputArea, #memberBirthdayInputArea, #memberLocationInputArea {
+	display:inline-block;
+}
+.itemTitle{
+	width:20%;
+	display:inline-block;
+	color:#999;
+}
+.detailItem{
+	margin:10px 0px;
+}
+.memberStatus{
+	margin-top:10px;
+}
+.cantEdit{
+	color:#666;
+}
+.unwritten{
+	color:#F96;
+}
+.unwritten:hover{
+	color:#eb6027;
+}
+.tooltip-inner{
+	background-color:#eb6027;
+}
+.tooltip.right .tooltip-arrow{
+	border-right-color:#eb6027;
+}
+#memberDescriptionInput{
+	width:100%;
+	height:160px;
+}
+.editAlert{
+	display:none;
+	border:#b94a48 solid 1px;
+	margin-left:10px;
+	color:#b94a48;
+}
+.editAlert b{
+	margin-right:3px;
+	background-color:#b94a48;
+	color:#FFF;
+}
+#editAction{
+	display:none;
+}
+#memberDescriptionDisplay{
+	word-wrap: break-word; 
+	word-break: normal;
+}
+/* 無資料 */
+.nolist{
+	margin-top:20px;
+	letter-spacing:5px;
+	text-align:center;
+	color:#999;
+}
+
+/* 儲存成功 */
+.saveok_content
+{
+	margin-top:120px;
+	padding:30px 0px;
+	color:#FFF;
+	font-size:15px;
+	line-height:30px;
+	border:none;
+	background-color:#EB6027;
+	text-align:center;
+}
+.saveok_btn
+{
+	border:none;
+	height:30px;
+	margin-top:10px;
+}
+
+/* 條件下拉選單 */
+.memberStatus .btn-group
+{
+	width:100%;
+}
+.memberStatus .btn-group .btn
+{
+	width:100%;
+}
+.memberStatus .dropdown-menu
+{
+	width:100%;
+	font-size:15px;
+}
+.dropdown-menu li a
+{
+	height:40px;
+	padding: 10px 20px;
+}
+.dropdown-menu li a:hover, .dropdown-menu li a:focus
+{
+	background-color:#EB6027;
+	color:#FFF;
+}
+
+/* 查詢div */
+.chooseStatusLeft{
+	padding-left: 0px;
+}
+.chooseStatusRight{
+	padding-right:0px;
+}
+.btn{
+	font-size:15px;
+}
+
+.modal-title{
+	font-size:15px;
+}
+.jcrop-keymgr{
+	opacity:0;
+}
+@media screen and (max-width:460px) {
+	.memberDetailLeft{
+		padding-right:0px;
+		padding-left: 0px;
+	}
+	.memberDetailRight{
+		padding-right:0px;
+		padding-left: 0px;
+	}
+	.friendList{
+		margin-bottom:20px;
+	}
+}

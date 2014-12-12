@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.boardList{
+	border-top:1px solid #CCC;
+	width:100%;
+}
+.nomsg{
+	text-align:center;
+	font-size:15px;
+	color:#999;
+	letter-spacing:15px;
+	line-height:400px;
+}
+.boardItem{
+	height:160px;
+	padding-top:20px;
+	border-bottom:1px solid #f2f2f2;
+}
+.boardItem:hover{
+	background-color:#f7f7f7;
+}
+.boardItem a{
+	color:#000;
+}
+.boardItem ul{
+	margin-top:10px;
+	padding:0px;
+	list-style:none;
+}
+.boardBottom{
+	margin:50px auto;
+	text-align:center;
+	font-size:15px;
+}
+.boardBottom button{
+	width:300px;
+}
+.msgTime{
+	color:#999;
+	font-size:12px;
+	margin-top:10px;
+}
+.labelList{
+	margin-left: 20px;
+}
+.listbottom{
+	height:160px;
+	padding-top:20px;
+	text-align:center;
+	color:#CCC;
+	letter-spacing:15px;
+}

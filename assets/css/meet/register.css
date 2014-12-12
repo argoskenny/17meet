@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.registerArea{
+	max-width:500px;
+}
+.form-group .alertText{
+	display:none;
+	color:#b94a48;
+}
+.success-msg{
+	display:none;
+}
+.alert-success .alert-link{
+	color:#eb6027;
+}

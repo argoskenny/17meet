@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+*:focus {
+    outline: none;
+}
+a, a:hover, a:focus{
+	outline: ; /* for Firefox */
+	behavior:expression(this.onFocus=this.blur());
+}
+button {
+	outline: none;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif, "新細明體";
+}
+/* 選單 */
+.navbar-inverse .navbar-collapse{
+	border-color:#FFF;
+}
+.navbar .navbar-right li a:hover{
+	background-color:rgba(255,255,255,0.1);
+} 
+.navbar-inverse {
+	background-color: #EB6027;
+	border-color: #EB6027;
+}
+.navbar-inverse .navbar-brand, .navbar .navbar-right li a {
+	color: #FFF;
+}
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #EB6027;
+}
+.navbar-inverse .navbar-toggle:hover{
+	background-color:rgba(255,255,255,0.1);
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #FFF;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+/* 輸入欄位邊框陰影 */
+.form-control{
+	height:40px;
+}
+.form-control:focus
+{
+	border: #F9C095 solid 1px;
+	box-shadow: 0px 0px 10px 1px #F9C095;
+	-webkit-box-shadow: 0px 0px 10px 1px #F9C095;
+}
+
+/* 主內容 */
+.main {
+	margin-top:100px;
+}
+/* 通知小視窗 */
+.remindArea{
+	display:none;
+}
+.navbar .navbar-right li .popover{
+	max-width: 300px;
+}
+.navbar .navbar-right li .popover-content{
+	padding:0px;
+}
+.navbar .navbar-right li .popover-content ul {
+	list-style:none;
+	padding-left:0px;
+}
+.navbar .navbar-right li .popover-content li a{
+	display:block;
+	height:60px;
+	width: 295px;
+	padding-top:5px;
+	padding-bottom:2px;
+	padding-left:14px;
+	border-bottom:1px dashed #CCCCCC;
+	color:#000;
+	overflow:hidden;
+}
+.navbar .navbar-right li .popover-content li a:hover{
+	background-color:#F2F2F2;
+	text-decoration:none;
+}
+.navbar .navbar-right li .popover-content li a img{
+	width:50px;
+	height:50px;
+	overflow:hidden;
+	float:left;
+}
+.navbar .navbar-right li .popover-content li a p{
+	margin-left:10px;
+	line-height:17px;
+	float:left;
+}
+.navbar .navbar-right li .popover-content .remindBottom{
+	text-align:center;
+	padding: 8px 14px;
+	line-height: 18px;
+	background-color: #f7f7f7;
+	border-top: 1px solid #ebebeb;
+}
+.navbar .navbar-right li .popover-content .remind-no-list{
+	text-align:center;
+	padding: 8px 14px;
+	line-height: 30px;
+	letter-spacing:5px;
+	color:#CCC;
+}
+.navbar .navbar-right li .popover-content .remindBottom a{
+	font-weight:bold;
+	color:#EB6027;
+}
+.remindTime{
+	font-size:12px;
+	color:#999;
+}
+.remind-no-list{
+	width:295px;
+}
+.labelRemind{
+	float: right;
+	margin-right: 14px;
+	margin-top: 15px;
+}
+.badge{
+	background-color:#B43A08;
+	margin-left:5px;
+}
+@media screen and (max-width:460px) {
+	.col-xs-12{
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
